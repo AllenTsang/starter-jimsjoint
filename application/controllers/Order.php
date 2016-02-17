@@ -59,7 +59,6 @@ class Order extends Application {
 	$this->hokeyfix($this->data['drinks'],$order_num);
 	$this->hokeyfix($this->data['sweets'],$order_num);
 	// end of hokey patch
-	
         $this->render();
     }
 
